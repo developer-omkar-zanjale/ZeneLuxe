@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct ZeneLuxeApp: App {
     
-    @StateObject var coreDataService = CoreDataService()
+    @StateObject var coreDataService = CoreDataService() 
     
     var body: some Scene {
         WindowGroup {
