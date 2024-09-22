@@ -28,7 +28,7 @@ struct LoaderView: View {
             }
             .background {
                 RoundedCorner(radius: screenBounds().width * 0.1, corners: [.topRight, .bottomRight])
-                    .foregroundColor(AppColors.primaryTxtColor)
+                    .foregroundColor(AppColors.white.opacity(0.8))
                     
             }
             .padding(.top, screenBounds().height * 0.2)

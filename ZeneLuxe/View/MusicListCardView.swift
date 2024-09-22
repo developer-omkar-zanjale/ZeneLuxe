@@ -31,7 +31,15 @@ struct MusicListCardView: View {
                             .resizable()
                             .foregroundColor(.white)
                     } else {
-                        RoundedRectangle(cornerRadius: 10)
+                        ZStack {
+//                            RoundedRectangle(cornerRadius: 10)
+//                                .foregroundStyle(AppColors.white)
+                            ProgressView()
+                                .foregroundStyle(AppColors.black)
+                                .controlSize(.large)
+                                .progressViewStyle(.circular)
+                        }
+                        
                     }
                 }
                 .frame(width: screenBounds().width * 0.16, height: screenBounds().width * 0.16)

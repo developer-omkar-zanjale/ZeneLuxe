@@ -8,7 +8,7 @@
 import Foundation
 
 func printLog(_ str: String) {
-    print(str)
+//    print(str)
 }
 
 func asyncQueue(completion: @escaping(()->())) {

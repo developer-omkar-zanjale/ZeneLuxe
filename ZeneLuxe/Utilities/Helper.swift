@@ -12,6 +12,9 @@ struct AppColors {
     static let midBG = Color("middleBGGradient2")
     static let bottomBG = Color("bottomBGGradient3")
     
+    static let white = Color.white
+    static let black = Color.black
+    
     static let primaryTxtColor = Color("primaryTxtColor")
     
 }

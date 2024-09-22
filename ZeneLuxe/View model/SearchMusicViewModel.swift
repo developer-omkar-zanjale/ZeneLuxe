@@ -45,7 +45,7 @@ class SearchMusicViewModel: ObservableObject {
     func didChangeSeacrhInput(_ str: String) {
         printLog("musicSearchTimer resetting...")
         musicSearchTimer?.invalidate()
-        musicSearchTimer = Timer.scheduledTimer(withTimeInterval: 2, repeats: false, block: { _ in
+        musicSearchTimer = Timer.scheduledTimer(withTimeInterval: 1, repeats: false, block: { _ in
             if str.isEmpty {
                 self.musicData.removeAll()
             } else {
