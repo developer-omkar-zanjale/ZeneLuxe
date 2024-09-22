@@ -11,5 +11,5 @@ Dark & Light Mode: Choose between a dark or light theme to suit your mood and en
 
 Overview:
 
-https://github.com/user-attachments/assets/02d13884-5a83-42cf-81d2-56e5678ed97d
+https://github.com/user-attachments/assets/3d23b0f8-2a90-44d7-a443-dddc24aae582
 
